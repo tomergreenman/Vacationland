@@ -1,0 +1,392 @@
+{
+	"info": {
+		"_postman_id": "8ee714fa-2235-4fa0-a5e2-3ec7a5e6366a",
+		"name": "Vacations REST API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET all vacations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/vacations/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"vacations",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET one vacation",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/vacations/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"vacations",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET vacations fo user",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": 3,\n    \"vacationId\": 5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/vacations/for-user/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"vacations",
+						"for-user",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET vacations image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/vacations/images/4c134263-1487-46b8-919e-5fa582f97147.jpeg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"vacations",
+						"images",
+						"4c134263-1487-46b8-919e-5fa582f97147.jpeg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST one vacation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "description",
+							"value": "Volcanic mountain to destroy a powerfull ring",
+							"type": "default"
+						},
+						{
+							"key": "destination",
+							"value": "icland",
+							"type": "default"
+						},
+						{
+							"key": "startDate",
+							"value": "2023-01-01",
+							"type": "default"
+						},
+						{
+							"key": "endDate",
+							"value": "2023-02-02",
+							"type": "default"
+						},
+						{
+							"key": "price",
+							"value": "2000",
+							"type": "default"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/Users/tomergreenman/Downloads/f7c07ce1-ba30-41ab-9f20-d1c38145e256 (3).jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/vacations/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"vacations",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT vacation",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "description",
+							"value": "Beautifull Mountains!!",
+							"type": "default"
+						},
+						{
+							"key": "destination",
+							"value": "Chamonix",
+							"type": "default"
+						},
+						{
+							"key": "startDate",
+							"value": "2023-02-18",
+							"type": "default"
+						},
+						{
+							"key": "endDate",
+							"value": "2023-02-26",
+							"type": "default"
+						},
+						{
+							"key": "price",
+							"value": "7000",
+							"type": "default"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": []
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/vacations/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"vacations",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE vacation",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"aragornstrider\",\n    \"password\": \"aragornstrider\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/vacations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"vacations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST follow vacation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/followers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"followers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE unfollow vacation",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/followers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"followers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST register user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\":\"\",\n    \"lastName\":\"\",\n    \"username\": \"\",\n    \"password\": \"\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST login user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"\",\n    \"password\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJJZCI6MSwicm9sZUlkIjoyLCJmaXJzdE5hbWUiOiJhcmFnb3JuIiwibGFzdE5hbWUiOiJzdHJpZGVyIiwidXNlcm5hbWUiOiJhcmFnb3Juc3RyaWRlciJ9LCJpYXQiOjE2NzQ5ODAyNTEsImV4cCI6MTY3NTA2NjY1MX0.v6KcwtJAsWyBcjemGTYVbq-V8isYNmo20Zkeulwpn7E",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

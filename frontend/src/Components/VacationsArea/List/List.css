@@ -1,0 +1,28 @@
+.List .CardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.List .Pagination {
+    margin: auto;
+    width: max-content;
+    padding: 20px;
+}
+
+.List select {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.GridContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

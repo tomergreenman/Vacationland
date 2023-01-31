@@ -1,0 +1,18 @@
+{"level":"error","message":"User Unfollowing failed because id 583 does not exist","status":404,"timestamp":"2023-29-01 10:17:57"}
+{"level":"error","message":"Deleting vacation failed because id 435 does not exist","status":404,"timestamp":"2023-29-01 10:18:12"}
+{"code":"ENOENT","errno":-2,"expose":false,"level":"error","path":"/Users/tomergreenman/Documents/John Bryce/Project 3 old trials/7.Project 3 Hosting Finale/backend/src/_front-end/index.html","status":404,"statusCode":404,"syscall":"stat","timestamp":"2023-29-01 10:18:16"}
+{"code":"ENOENT","errno":-2,"expose":false,"level":"error","path":"/Users/tomergreenman/Documents/John Bryce/Project 3 old trials/7.Project 3 Hosting Finale/backend/src/_front-end/index.html","status":404,"statusCode":404,"syscall":"stat","timestamp":"2023-29-01 10:18:36"}
+{"code":"ENOENT","errno":-2,"expose":false,"level":"error","path":"/Users/tomergreenman/Documents/John Bryce/Project 3 old trials/7.Project 3 Hosting Finale/backend/src/_front-end/index.html","status":404,"statusCode":404,"syscall":"stat","timestamp":"2023-29-01 10:18:43"}
+{"level":"error","message":"Route /api/vacationsf does not exist","status":404,"timestamp":"2023-29-01 10:21:17"}
+{"level":"error","message":"Route /api/vacations/345f does not exist","status":404,"timestamp":"2023-29-01 10:21:25"}
+{"level":"error","message":"Incorrect username or password","status":401,"timestamp":"2023-29-01 11:10:17"}
+{"level":"error","message":"Route /api/vacations/345f does not exist","status":404,"timestamp":"2023-29-01 11:21:56"}
+{"level":"error","message":"Route /api/vacationsr does not exist","status":404,"timestamp":"2023-29-01 11:22:03"}
+{"level":"error","message":"Route /api/vacations does not exist","status":404,"timestamp":"2023-29-01 11:22:06"}
+{"level":"error","message":"Getting one vacation failed because id 3 does not exist","status":404,"timestamp":"2023-29-01 11:48:24"}
+{"level":"error","message":"Incorrect username or password","status":401,"timestamp":"2023-29-01 12:11:39"}
+{"level":"error","message":"Incorrect username or password","status":401,"timestamp":"2023-29-01 12:27:58"}
+{"level":"error","message":"Incorrect username or password","status":401,"timestamp":"2023-29-01 12:37:32"}
+{"level":"error","message":"Route /api/vacations/images/4c134263-1487-46b8-919e-5fa582f97147.jpeg does not exist","status":404,"timestamp":"2023-29-01 12:41:28"}
+{"level":"error","message":"\"firstName\" is not allowed to be empty","status":400,"timestamp":"2023-29-01 12:44:29"}
+{"level":"error","message":"Incorrect username or password","status":401,"timestamp":"2023-29-01 22:34:13"}

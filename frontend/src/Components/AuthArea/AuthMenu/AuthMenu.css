@@ -1,0 +1,18 @@
+.AuthMenu {
+    color: white;
+    font-weight: bold;
+}
+
+.AuthMenu .MuiButton{
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.HelloMsg{
+    position: relative;
+    top: 4px;
+}
+
+.LogoutIcon{
+    margin-right: 5px;
+}

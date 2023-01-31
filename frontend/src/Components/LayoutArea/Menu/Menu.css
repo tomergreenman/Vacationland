@@ -1,0 +1,31 @@
+.Menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 3px;
+}
+
+.Menu a:hover {
+    color: rgb(191, 255, 227);
+}
+
+.Menu .active {
+    font-size: larger;
+    text-decoration:underline;
+    font-weight: bold;
+
+}
+
+.Icons{
+    position: relative;
+    top: 5px;
+}
+
+.Menu button {
+    cursor:auto;
+    margin: 10px;
+
+}
+
+.Menu{
+    padding: 3px;
+}

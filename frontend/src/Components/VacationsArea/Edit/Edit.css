@@ -1,0 +1,22 @@
+.Edit .PastVacation {
+    color: red;
+}
+
+.Edit .PastVacationCheckBox {
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin: auto;
+}
+
+
+
+.Edit .Hidden {
+    display: none;
+}
+
+.Edit .Visible {
+    display: block;
+    margin-top: 5px;
+    height: 8px;
+}

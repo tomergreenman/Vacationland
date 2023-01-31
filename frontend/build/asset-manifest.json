@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bcd4eab6.css",
+    "main.js": "/static/js/main.d6a02822.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/sad-dog.jpg": "/static/media/sad-dog.6da57f09dc0ef07e121e.jpg",
+    "static/media/crying-baby.jpg": "/static/media/crying-baby.5a0dcfffd3bfb2eac86d.jpg",
+    "static/media/flower-field.jpg": "/static/media/flower-field.94ff651fe04b5f966c55.jpg",
+    "static/media/canoe.jpg": "/static/media/canoe.001814fe8d60773b2f3c.jpg",
+    "static/media/horses.jpg": "/static/media/horses.ec344ec643ce2143a91e.jpg",
+    "static/media/dolomites.jpg": "/static/media/dolomites.9d4e71b89075d5d81cb2.jpg",
+    "static/media/desert.jpg": "/static/media/desert.0975cfe9bc4ca13fec5c.jpg",
+    "static/media/bled.jpg": "/static/media/bled.c0c3bc450df5d5299db3.jpg",
+    "static/media/iceland-lights.jpg": "/static/media/iceland-lights.3aa141e67461df74dc43.jpg",
+    "static/media/woman.jpg": "/static/media/woman.38c120815ef54e548c88.jpg",
+    "index.html": "/index.html",
+    "main.bcd4eab6.css.map": "/static/css/main.bcd4eab6.css.map",
+    "main.d6a02822.js.map": "/static/js/main.d6a02822.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcd4eab6.css",
+    "static/js/main.d6a02822.js"
+  ]
+}

@@ -1,0 +1,9 @@
+.Insert .Hidden {
+    display: none;
+}
+
+.Insert .Visible {
+    display: block;
+    margin-top: 5px;
+    height: 8px;
+}

@@ -1,0 +1,11 @@
+.Statistics img{
+    width: 700px;
+    max-width: 90%;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px gray;
+}
+
+
+.Statistics{
+    padding: 10px;
+}
