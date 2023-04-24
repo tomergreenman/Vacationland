@@ -6,7 +6,6 @@ import catchAll from "./3-middleware/catch-all";
 import routeNotFound from "./3-middleware/route-not-found";
 import sanitize from "./3-middleware/sanitize";
 import expressRateLimit from "express-rate-limit";
-import helmet from "helmet";
 import vacationsController from "./6-controllers/vacations-controller";
 import authController from "./6-controllers/auth-controller";
 import path from "path";
@@ -25,7 +24,6 @@ const rateLimiter = expressRateLimit({
 server.use("/api/vacations/", rateLimiter);
 server.use("/api/auth/", rateLimiter);
 server.use("/api/followers/", rateLimiter);
-
 
 server.use(express.json());
 
