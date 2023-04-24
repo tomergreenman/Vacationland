@@ -27,29 +27,6 @@ server.use("/api/auth/", rateLimiter);
 server.use("/api/followers/", rateLimiter);
 
 
-//Helmet causing problems in frontend for displaying vacations images
-//We need different settings for development and production
-if (appConfig.isDevelopment) {
-
-    server.use(helmet({
-        crossOriginResourcePolicy: false,
-    }));
-}
-
-else {
-
-    server.use(helmet({ crossOriginEmbedderPolicy: false, originAgentCluster: true }));
-    server.use(
-        helmet.contentSecurityPolicy({
-            useDefaults: true,
-            directives: {
-                "img-src": ["'self'", "https: data: blob:"],
-            },
-        })
-    );
-
-}
-
 server.use(express.json());
 
 if (appConfig.isProduction) server.use(express.static(path.join(__dirname, "./_front-end")));

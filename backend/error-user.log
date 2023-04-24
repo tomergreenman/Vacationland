@@ -16,3 +16,4 @@
 {"level":"error","message":"Route /api/vacations/images/4c134263-1487-46b8-919e-5fa582f97147.jpeg does not exist","status":404,"timestamp":"2023-29-01 12:41:28"}
 {"level":"error","message":"\"firstName\" is not allowed to be empty","status":400,"timestamp":"2023-29-01 12:44:29"}
 {"level":"error","message":"Incorrect username or password","status":401,"timestamp":"2023-29-01 22:34:13"}
+{"level":"error","message":"Username aragornstrider already taken","status":400,"timestamp":"2023-31-01 22:01:54"}
