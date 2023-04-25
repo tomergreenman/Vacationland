@@ -85,3 +85,15 @@
 {"level":"info","message":"userId 3 started following vacationId 19","timestamp":"2023-31-01 21:35:48"}
 {"level":"info","message":"aragornstrider successfully logged in","timestamp":"2023-31-01 21:36:05"}
 {"level":"info","message":"Admin successfully edited vacation 22","timestamp":"2023-31-01 21:39:03"}
+{"level":"info","message":"gandalfthegray successfully logged in","timestamp":"2023-25-04 14:48:18"}
+{"level":"info","message":"userId 3 stopt following vacationId 19","timestamp":"2023-25-04 14:48:20"}
+{"level":"info","message":"userId 3 started following vacationId 19","timestamp":"2023-25-04 14:48:21"}
+{"level":"info","message":"userId 3 started following vacationId 20","timestamp":"2023-25-04 14:48:23"}
+{"level":"info","message":"userId 3 stopt following vacationId 20","timestamp":"2023-25-04 14:48:23"}
+{"level":"info","message":"userId 3 stopt following vacationId 33","timestamp":"2023-25-04 14:48:24"}
+{"level":"info","message":"userId 3 started following vacationId 33","timestamp":"2023-25-04 14:48:25"}
+{"level":"info","message":"userId 3 stopt following vacationId 29","timestamp":"2023-25-04 14:48:31"}
+{"level":"info","message":"userId 3 stopt following vacationId 35","timestamp":"2023-25-04 14:48:32"}
+{"level":"info","message":"userId 3 stopt following vacationId 36","timestamp":"2023-25-04 14:48:33"}
+{"level":"info","message":"aragornstrider successfully logged in","timestamp":"2023-25-04 14:48:47"}
+{"level":"info","message":"Admin successfully edited vacation 19","timestamp":"2023-25-04 14:48:55"}

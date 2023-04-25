@@ -8,9 +8,8 @@ class InterceptorsService {
 
         axios.interceptors.request.use(request => {
             if (authService.isLoggedIn()) {
-                request.headers = {
-                    authorization: "Bearer " + authStore.getState().token
-                };
+                request.headers.Authorization = "Bearer " + authStore.getState().token
+                
             }
             return request;
         });
